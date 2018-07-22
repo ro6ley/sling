@@ -39,8 +39,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :sling, Sling.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "robley",
+  password: "",
   database: "sling_dev",
   hostname: "localhost",
   pool_size: 10
